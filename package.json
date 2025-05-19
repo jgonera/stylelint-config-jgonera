@@ -1,0 +1,32 @@
+{
+  "name": "stylelint-config-jgonera",
+  "version": "1.0.0",
+  "description": "Shared Stylelint config",
+  "type": "module",
+  "main": "stylelint.config.js",
+  "scripts": {
+    "deps:check": "ncu",
+    "deps:update": "ncu -u",
+    "format": "NODE_OPTIONS=\"--experimental-strip-types\" prettier --write \"./**/*.{cjs,js,json,md,ts}\"",
+    "lint": "NODE_OPTIONS=\"--experimental-strip-types\" prettier --check \"./**/*.{cjs,js,json,md,ts}\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jgonera/stylelint-config-jgonera.git"
+  },
+  "author": "Juliusz Gonera",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jgonera/stylelint-config-jgonera/issues"
+  },
+  "homepage": "https://github.com/jgonera/stylelint-config-jgonera#readme",
+  "devDependencies": {
+    "npm-check-updates": "^17.1.15",
+    "prettier": "^3.5.2",
+    "stylelint": "^16.19.1",
+    "typescript": "^5.7.3"
+  },
+  "dependencies": {
+    "stylelint-order": "^7.0.0"
+  }
+}
