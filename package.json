@@ -29,6 +29,6 @@
   "dependencies": {
     "postcss-html": "^1.8.0",
     "stylelint-config-html": "^1.1.0",
-    "stylelint-order": "^7.0.0"
+    "stylelint-order": "^7.0.1"
   }
 }
